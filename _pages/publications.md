@@ -29,7 +29,7 @@ of the hot hand and other statistical dependencies in free throws.* Royal Societ
 .* Royal Society Open Science [doi:10.1098/rsos.180496](https://royalsocietypublishing.org/doi/10.1098/rsos.180496) [arXiv: 1701.02424](https://arxiv.org/abs/1701.02424)
 
 
-* **Joshua C. Chang**, Yanli Liu, and Tom Chou. *High-resolution reconstruction of cellular traction- force distributions: the role of physically motivated constraints and compressive regularization.* Biophysical journal. [arXiv:1709.04408](http://arxiv.org/abs/1709.04408)
+* **Joshua C. Chang**, Yanli Liu, and Tom Chou. *High-resolution reconstruction of cellular traction- force distributions: the role of physically motivated constraints and compressive regularization.* [Biophysical journal](https://www.cell.com/biophysj/fulltext/S0006-3495(17)31033-0) [arXiv:1709.04408](http://arxiv.org/abs/1709.04408)
 
 * Patrick E. Gygli, **Joshua C. Chang**, Hamza N. Gokozan, Fay P. Catacutan, Theresa A. Schmidt, Amelie Griveau, Wojciech Michowski, Michael Wong, Kamalakannan Palanichamy, Peter Sicinski, Catherine Czeisler, José J. Otero. *Cyclin A2 promotes DNA repair in the brain during both development and aging.* Aging. [doi:10.18632/aging.100990](http://dx.doi.org/10.18632/aging.100990)
 
