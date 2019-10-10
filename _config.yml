@@ -16,10 +16,7 @@
 title: Josh Chang PhD
 email: joshchang@ucla.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  Josh Chang's academic website and blog.
 github_username: joshchang
 minimal_mistakes_skin: aqua
 search: true
@@ -62,15 +59,15 @@ author:
   avatar : "/assets/images/bio-photo.png"
   bio    : "Rigor, speculation, and musings"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/joshcolumbuschang/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joshchang"
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Josh_Chang6"
 
 footer:
   links:
@@ -80,7 +77,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joshchang"
-
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Josh_Chang6"
+      
 defaults:
   # _posts
   - scope:
