@@ -7,7 +7,7 @@ title: "About"
 
 I have been at the National Institutes of Health (NIH) in a collaborative effort to improve disability programs in the USA.
 [This American Life](http://www.thisamericanlife.org/radio-archives/episode/490/trends-with-benefits) has
-an excellent primer on the disability crisis. Additionally, I was a fellow in [Carson Chow's](https://irp.nih.gov/pi/carson-chow) lab at the [Laboratory of Biological Modeling](https://lbm.niddk.nih.gov) where I worked on some modeling projects and also some machine intelligence techniques.
+an excellent primer on the disability crisis. Additionally, I was a fellow in [Carson Chow's][carsonchow] lab at the [Laboratory of Biological Modeling](https://lbm.niddk.nih.gov) where I worked on some modeling projects and also some machine intelligence techniques.
 
 
 From 2012-2015, I was an NSF postdoctoral fellow at the [Mathematical Biosciences Institute (MBI).](http://mbi.osu.edu)
