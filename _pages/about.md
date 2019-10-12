@@ -21,15 +21,16 @@ In my research I meld contemporary data-driven techniques with more-rigorous mec
 Featured publications
 =====================
 
-* **Joshua C. Chang**, Yanli Liu, and Tom Chou. *High-resolution reconstruction of cellular traction- force distributions: the role of physically motivated constraints and compressive regularization.* [Biophysical journal](https://www.cell.com/biophysj/fulltext/S0006-3495(17)31033-0) [arXiv:1709.04408](http://arxiv.org/abs/1709.04408)
+* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model of mitochondrial calcium-phosphate dissolution as a mechanism for persistent post-CSD vasoconstriction,* In review, PLOS Computational Biology, [doi:10.1101/732362](https://www.biorxiv.org/content/10.1101/732362v1).
+* **Joshua C. Chang.** *Predictive Bayesian selection of multistep Markov chains, applied to the detection
+of the hot hand and other statistical dependencies in free throws.* Royal Society Open Science [doi:10.1098/rsos.182174](https://doi.org/10.1098/rsos.182174) [arXiv:1706.08881](https://arxiv.org/abs/1706.08881)
 * **Joshua C. Chang** and Robert Miura. *Regulatory inhibition of biological tissue mineralization by calcium phosphate through post-nucleation shielding by fetuin-A,* The Journal of Chemical Physics, 144(15). [doi:10.1063/1.4946002](http://dx.doi.org/10.1063/1.4946002) 
-* **Joshua C. Chang**, Pak-Wing Fok, and Tom Chou. *Bayesian Uncertainty Quantification for Bond Energies and Mobilities Using Path Integral Analysis,* Biophysical journal 109.5 (2015): 966-974, [doi:10.1016/j.bpj.2015.07.028](http://dx.doi.org/10.1016/j.bpj.2015.07.028) [arXiv:1502.06415](http://arxiv.org/abs/1502.06415) [github:joshchang/dfsinference](https://github.com/joshchang/dfsinference)
 
 
 Recorded lectures
 =================
 
-* Fields Institute talk on Neurovascular Coupling and Spreading Depression [link](http://www.fields.utoronto.ca/video-archive/2014/07/295-3500)
+* [Fields Institute talk on Neurovascular Coupling and Spreading Depression](http://www.fields.utoronto.ca/video-archive/2014/07/295-3500)
 
 [tomchou]: http://faculty.biomath.ucla.edu/tchou/
 [kcbrennan]: http://neuroscience.med.utah.edu/Faculty/Brennan.html
