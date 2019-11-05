@@ -7,7 +7,7 @@ title: "Publications"
 Somewhere in the pipeline
 -------------------------
 
-* **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* NeurIPS 2019 Bayesian Deep Learning Workshop.
+* **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* [NeurIPS 2019 Bayesian Deep Learning Workshop](http://bayesiandeeplearning.org/).
 
 * **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Evaluating the in-application performance of IRT calibration and scoring methods using
 cross validation,* In Preparation.

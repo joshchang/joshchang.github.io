@@ -1,0 +1,535 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Basketball, disability, prediction, and data availability - Josh Chang PhD</title>
+<meta name="description" content="Tl;dr:  Yes, hot hands exist  People should stop uncritically using Bayes factors  Look to sports if you want data to test out ideasOddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect in basketball. I thought I should explain a bit how this particular manuscript came to be.SSA and disability adjudicationIn 2013, I first heard This American Life’s episode 490 Trends With Benefits, telling stories behind the disability crisis facing the United States. The episode always stuck with me and was a big factor in influencing me to join the NIH Clinical Center’s Epidemiology and Biostatistics group, which is sponsored by the US Social Security Administration (SSA) and collaborates with the SSA on disability projects.The particular project I was interested in involved using queueing theory to understand the case adjudication backlog. At the time, the backlog was two years. The government was interested in using analytical techniques to improve productivity and target resources in the aim of reducing the backlog.ModelingAs part of this project, I needed a method of modeling paths which cases take as they traverse through the system at SSA. Enter Markov Chains! However, standard memoryless Markov Chains were not suitable for this problem. There were some stereotyped patterns within case paths though with lots of variability. The simplest extension of memoryless Markov chains are higher-order Markov chains. In these Markov chains, the transition probability depends on the recent history of the trajectory, and not just the current state. I needed a general method for choosing the order.PublicationAt the same time, I had been having success using the principle of evaluating Bayesian models based on their frequentist properties. What this entails is evaluating the out-of-sample predictive ability of well-regularized Bayesian model fits. For the Markov chain problem, there are certain metrics that one can compute for performing this evaluation. My original manuscript arXiv:1702.06221 derived formulae for these metrics and evaluated the relative performance of the different metrics using simulated data.Notably, Bayes factors are very bad for this problem, if you want to make any mechanistic judgments downstream of your model selection procedure.Now it came time to publish the results. Editors were not interested in publishing me original manuscript since it didn’t have data or a real-world problem. I didn’t want to use the original social security application, because that information is sensitive. Being from the world of quantitative biology, I immediately started looking for biological applications (transitions between protein states for instance), but came up empty in searching for publically-available data.Hot handsFortunately, at that time, the NBA finals were going on. I realized that sports data is public. Additionally, there had been some debate in the media over the presence of the hot hand effect. As I was watching game two of the 2017 finals, I scrubbed LeBron James’ free throw records from the season prior and lo and behold, I found statistical dependencies in his free throw shooting. He didn’t exhibit hot hands per-se, but he clearly has a tendency to course-correct after missing a free throw. Over several seasons, he has hit a better percentage after a miss than otherwise.Going forward in peer review, I eventually extended the analysis to other players, and to entire seasons. If you check out my paper, you will see that based on best-prediction, models for free throws with various types of dependencies between free throws do better than than models without dependencies. This varies by player but there are several general trends: Hot hands, cold hands, error correcting hands. As a variant of cold hands, many players shoot markedly worse on their first trip to the line. I think NBA coaches know this – when a player gets injured and is unable to shoot his free throws, the opposing coach will often choose someone at the end of the injured player’s bench to shoot free throws.Additionally, from a mechanistic standpoint, it is no surprise that statistical dependencies between outcomes exist. Anybody who has ever played basketball would tell you that sometimes you are in the zone and sometimes you aren’t feeling it. Shooting a basketball is a sequence of neuronal signals culminating in mechanistic actions. The underlying process is a result of a dynamical system dependent on the state of the player. It makes sense that hot hands exist.Anyways, to summarize, no the SSA didn’t fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices. If there is a tool that you want to use, like AIC, BIC, DIC, or Bayes factors, make sure that you understand how well it works for the particular problem you are working on before you apply it and try to interpret its results.">
+
+
+  <meta name="author" content="Josh Chang">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Josh Chang PhD">
+<meta property="og:title" content="Basketball, disability, prediction, and data availability">
+<meta property="og:url" content="http://localhost:4000/blog/research/basketball/">
+
+
+  <meta property="og:description" content="Tl;dr:  Yes, hot hands exist  People should stop uncritically using Bayes factors  Look to sports if you want data to test out ideasOddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect in basketball. I thought I should explain a bit how this particular manuscript came to be.SSA and disability adjudicationIn 2013, I first heard This American Life’s episode 490 Trends With Benefits, telling stories behind the disability crisis facing the United States. The episode always stuck with me and was a big factor in influencing me to join the NIH Clinical Center’s Epidemiology and Biostatistics group, which is sponsored by the US Social Security Administration (SSA) and collaborates with the SSA on disability projects.The particular project I was interested in involved using queueing theory to understand the case adjudication backlog. At the time, the backlog was two years. The government was interested in using analytical techniques to improve productivity and target resources in the aim of reducing the backlog.ModelingAs part of this project, I needed a method of modeling paths which cases take as they traverse through the system at SSA. Enter Markov Chains! However, standard memoryless Markov Chains were not suitable for this problem. There were some stereotyped patterns within case paths though with lots of variability. The simplest extension of memoryless Markov chains are higher-order Markov chains. In these Markov chains, the transition probability depends on the recent history of the trajectory, and not just the current state. I needed a general method for choosing the order.PublicationAt the same time, I had been having success using the principle of evaluating Bayesian models based on their frequentist properties. What this entails is evaluating the out-of-sample predictive ability of well-regularized Bayesian model fits. For the Markov chain problem, there are certain metrics that one can compute for performing this evaluation. My original manuscript arXiv:1702.06221 derived formulae for these metrics and evaluated the relative performance of the different metrics using simulated data.Notably, Bayes factors are very bad for this problem, if you want to make any mechanistic judgments downstream of your model selection procedure.Now it came time to publish the results. Editors were not interested in publishing me original manuscript since it didn’t have data or a real-world problem. I didn’t want to use the original social security application, because that information is sensitive. Being from the world of quantitative biology, I immediately started looking for biological applications (transitions between protein states for instance), but came up empty in searching for publically-available data.Hot handsFortunately, at that time, the NBA finals were going on. I realized that sports data is public. Additionally, there had been some debate in the media over the presence of the hot hand effect. As I was watching game two of the 2017 finals, I scrubbed LeBron James’ free throw records from the season prior and lo and behold, I found statistical dependencies in his free throw shooting. He didn’t exhibit hot hands per-se, but he clearly has a tendency to course-correct after missing a free throw. Over several seasons, he has hit a better percentage after a miss than otherwise.Going forward in peer review, I eventually extended the analysis to other players, and to entire seasons. If you check out my paper, you will see that based on best-prediction, models for free throws with various types of dependencies between free throws do better than than models without dependencies. This varies by player but there are several general trends: Hot hands, cold hands, error correcting hands. As a variant of cold hands, many players shoot markedly worse on their first trip to the line. I think NBA coaches know this – when a player gets injured and is unable to shoot his free throws, the opposing coach will often choose someone at the end of the injured player’s bench to shoot free throws.Additionally, from a mechanistic standpoint, it is no surprise that statistical dependencies between outcomes exist. Anybody who has ever played basketball would tell you that sometimes you are in the zone and sometimes you aren’t feeling it. Shooting a basketball is a sequence of neuronal signals culminating in mechanistic actions. The underlying process is a result of a dynamical system dependent on the state of the player. It makes sense that hot hands exist.Anyways, to summarize, no the SSA didn’t fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices. If there is a tool that you want to use, like AIC, BIC, DIC, or Bayes factors, make sure that you understand how well it works for the particular problem you are working on before you apply it and try to interpret its results.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2019-11-04T00:00:00-05:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/research/basketball/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Josh Chang PhD Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Josh Chang PhD
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/" >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/" >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/" >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/" >Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/bio-photo.png" alt="Josh Chang" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Josh Chang</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Rigor, speculation, and musings</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/joshcolumbuschang/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+          
+        
+          
+            <li><a href="https://github.com/joshchang" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://www.researchgate.net/profile/Josh_Chang6" rel="nofollow noopener noreferrer"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Basketball, disability, prediction, and data availability">
+    <meta itemprop="description" content="Tl;dr:  Yes, hot hands exist  People should stop uncritically using Bayes factors  Look to sports if you want data to test out ideasOddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect in basketball. I thought I should explain a bit how this particular manuscript came to be.SSA and disability adjudicationIn 2013, I first heard This American Life’s episode 490 Trends With Benefits, telling stories behind the disability crisis facing the United States. The episode always stuck with me and was a big factor in influencing me to join the NIH Clinical Center’s Epidemiology and Biostatistics group, which is sponsored by the US Social Security Administration (SSA) and collaborates with the SSA on disability projects.The particular project I was interested in involved using queueing theory to understand the case adjudication backlog. At the time, the backlog was two years. The government was interested in using analytical techniques to improve productivity and target resources in the aim of reducing the backlog.ModelingAs part of this project, I needed a method of modeling paths which cases take as they traverse through the system at SSA. Enter Markov Chains! However, standard memoryless Markov Chains were not suitable for this problem. There were some stereotyped patterns within case paths though with lots of variability. The simplest extension of memoryless Markov chains are higher-order Markov chains. In these Markov chains, the transition probability depends on the recent history of the trajectory, and not just the current state. I needed a general method for choosing the order.PublicationAt the same time, I had been having success using the principle of evaluating Bayesian models based on their frequentist properties. What this entails is evaluating the out-of-sample predictive ability of well-regularized Bayesian model fits. For the Markov chain problem, there are certain metrics that one can compute for performing this evaluation. My original manuscript arXiv:1702.06221 derived formulae for these metrics and evaluated the relative performance of the different metrics using simulated data.Notably, Bayes factors are very bad for this problem, if you want to make any mechanistic judgments downstream of your model selection procedure.Now it came time to publish the results. Editors were not interested in publishing me original manuscript since it didn’t have data or a real-world problem. I didn’t want to use the original social security application, because that information is sensitive. Being from the world of quantitative biology, I immediately started looking for biological applications (transitions between protein states for instance), but came up empty in searching for publically-available data.Hot handsFortunately, at that time, the NBA finals were going on. I realized that sports data is public. Additionally, there had been some debate in the media over the presence of the hot hand effect. As I was watching game two of the 2017 finals, I scrubbed LeBron James’ free throw records from the season prior and lo and behold, I found statistical dependencies in his free throw shooting. He didn’t exhibit hot hands per-se, but he clearly has a tendency to course-correct after missing a free throw. Over several seasons, he has hit a better percentage after a miss than otherwise.Going forward in peer review, I eventually extended the analysis to other players, and to entire seasons. If you check out my paper, you will see that based on best-prediction, models for free throws with various types of dependencies between free throws do better than than models without dependencies. This varies by player but there are several general trends: Hot hands, cold hands, error correcting hands. As a variant of cold hands, many players shoot markedly worse on their first trip to the line. I think NBA coaches know this – when a player gets injured and is unable to shoot his free throws, the opposing coach will often choose someone at the end of the injured player’s bench to shoot free throws.Additionally, from a mechanistic standpoint, it is no surprise that statistical dependencies between outcomes exist. Anybody who has ever played basketball would tell you that sometimes you are in the zone and sometimes you aren’t feeling it. Shooting a basketball is a sequence of neuronal signals culminating in mechanistic actions. The underlying process is a result of a dynamical system dependent on the state of the player. It makes sense that hot hands exist.Anyways, to summarize, no the SSA didn’t fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices. If there is a tool that you want to use, like AIC, BIC, DIC, or Bayes factors, make sure that you understand how well it works for the particular problem you are working on before you apply it and try to interpret its results.">
+    <meta itemprop="datePublished" content="November 04, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Basketball, disability, prediction, and data availability
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Tl;dr:</p>
+<ul>
+  <li>Yes, hot hands exist</li>
+  <li>People should stop uncritically using Bayes factors</li>
+  <li>Look to sports if you want data to test out ideas</li>
+</ul>
+
+<p>Oddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect in basketball. I thought I should explain a bit how this particular manuscript came to be.</p>
+
+<h2 id="ssa-and-disability-adjudication">SSA and disability adjudication</h2>
+
+<p>In 2013, I first heard This American Life’s episode <a href="https://www.thisamericanlife.org/490/trends-with-benefits">490 Trends With Benefits</a>, telling stories behind the disability crisis facing the United States. The episode always stuck with me and was a big factor in influencing me to join the NIH Clinical Center’s <a href="https://clinicalcenter.nih.gov/rmd/eb/ebstaff.html">Epidemiology and Biostatistics group</a>, which is sponsored by the US Social Security Administration (SSA) and collaborates with the SSA on disability projects.</p>
+
+<p>The particular project I was interested in involved using queueing theory to understand the case adjudication backlog. At the time, the backlog was two years. The government was interested in using analytical techniques to improve productivity and target resources in the aim of reducing the backlog.</p>
+
+<h2 id="modeling">Modeling</h2>
+
+<p>As part of this project, I needed a method of modeling paths which cases take as they traverse through the system at SSA. Enter Markov Chains! However, standard memoryless Markov Chains were not suitable for this problem. There were some stereotyped patterns within case paths though with lots of variability. The simplest extension of memoryless Markov chains are higher-order Markov chains. In these Markov chains, the transition probability depends on the recent history of the trajectory, and not just the current state. I needed a general method for choosing the order.</p>
+
+<h2 id="publication">Publication</h2>
+
+<p>At the same time, I had been having success using the principle of evaluating Bayesian models based on their frequentist properties. What this entails is evaluating the out-of-sample predictive ability of well-regularized Bayesian model fits. For the Markov chain problem, there are certain metrics that one can compute for performing this evaluation. My original manuscript <a href="https://arxiv.org/abs/1702.06221">arXiv:1702.06221</a> derived formulae for these metrics and evaluated the relative performance of the different metrics using simulated data.
+<strong>Notably, Bayes factors are very bad for this problem, if you want to make any mechanistic judgments downstream of your model selection procedure.</strong></p>
+
+<p>Now it came time to publish the results. Editors were not interested in publishing me original manuscript since it didn’t have data or a real-world problem. I didn’t want to use the original social security application, because that information is sensitive. Being from the world of quantitative biology, I immediately started looking for biological applications (transitions between protein states for instance), but came up empty in searching for publically-available data.</p>
+
+<h2 id="hot-hands">Hot hands</h2>
+
+<p>Fortunately, at that time, the NBA finals were going on. I realized that <strong>sports data is public.</strong> Additionally, there had been some debate in the media over the presence of the hot hand effect. As I was watching game two of the 2017 finals, I scrubbed LeBron James’ free throw records from the season prior and lo and behold, I found statistical dependencies in his free throw shooting. He didn’t exhibit hot hands per-se, but he clearly has a tendency to course-correct after missing a free throw. Over several seasons, he has hit a better percentage after a miss than otherwise.</p>
+
+<p>Going forward in peer review, I eventually extended the analysis to other players, and to entire seasons. If you check out my paper, you will see that based on best-prediction, models for free throws with various types of dependencies between free throws do better than than models without dependencies. This varies by player but there are several general trends: Hot hands, cold hands, error correcting hands. As a variant of cold hands, many players shoot markedly worse on their first trip to the line. I think NBA coaches know this – when a player gets injured and is unable to shoot his free throws, the opposing coach will often choose someone at the end of the injured player’s bench to shoot free throws.</p>
+
+<p>Additionally, from a mechanistic standpoint, it is no surprise that statistical dependencies between outcomes exist. Anybody who has ever played basketball would tell you that sometimes you are in the zone and sometimes you aren’t feeling it. Shooting a basketball is a sequence of neuronal signals culminating in mechanistic actions. The underlying process is a result of a dynamical system dependent on the state of the player. It makes sense that hot hands exist.</p>
+
+<p>Anyways, to summarize, no the SSA didn’t fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices. If there is a tool that you want to use, like AIC, BIC, DIC, or Bayes factors, make sure that you understand how well it works for the particular problem you are working on before you apply it and try to interpret its results.</p>
+
+        <div><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.182174" class="btn btn--primary">Direct Link</a></div>
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#bayesian" class="page__taxonomy-item" rel="tag">bayesian</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#research" class="page__taxonomy-item" rel="tag">research</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#statistics" class="page__taxonomy-item" rel="tag">statistics</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#blog" class="page__taxonomy-item" rel="tag">Blog</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/categories/#research" class="page__taxonomy-item" rel="tag">Research</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-11-04T00:00:00-05:00">November 04, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Basketball%2C+disability%2C+prediction%2C+and+data+availability%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fresearch%2Fbasketball%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fresearch%2Fbasketball%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fresearch%2Fbasketball%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/research/postacute-csd/" class="pagination--pager" title="The biggest hurdle we had to overcome in formulating a calcium hypothesis for post-CSD vasoconstriction
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://www.biorxiv.org/content/10.1101/732362v1">The biggest hurdle we had to overcome in formulating a calcium hypothesis for post-CSD vasoconstriction
+</a> <a href="/blog/research/postacute-csd/" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">About a decade ago now, I entered the field of biology by working in a neuroscience wet lab, studying this phenomenon known as cortical spreading depolarizat...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://www.linkedin.com/in/joshcolumbuschang/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
+        
+      
+        
+          <li><a href="https://github.com/joshchang" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.researchgate.net/profile/Josh_Chang6" rel="nofollow noopener noreferrer"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Josh Chang PhD. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
