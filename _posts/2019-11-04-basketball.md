@@ -42,4 +42,4 @@ Going forward in peer review, I eventually extended the analysis to other player
 
 Additionally, from a mechanistic standpoint, it is no surprise that statistical dependencies between outcomes exist. Anybody who has ever played basketball would tell you that sometimes you are in the zone and sometimes you aren't feeling it. Shooting a basketball is a sequence of neuronal signals culminating in mechanistic actions. The underlying process is a result of a dynamical system dependent on the state of the player. It makes sense that hot hands exist.
 
-Anyways, to summarize, no the SSA didn't fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices.
+Anyways, to summarize, no the SSA didn't fund a sports analytics study. The manuscript looks like a sports analytics study but it is actually a serious scholarly work on evaluating model choices. If there is a tool that you want to use, like AIC, BIC, DIC, or Bayes factors, make sure that you understand how well it works for the particular problem you are working on before you apply it and try to interpret its results.
