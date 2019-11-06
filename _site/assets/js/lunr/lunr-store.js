@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/blog/research/postacute-csd/",
         "teaser":null},{
         "title": "Basketball, disability, prediction, and data availability",
-        "excerpt":"Tl;dr: Yes, hot hands exist People should stop uncritically using Bayes factors Look to sports if you want data to test out ideas Oddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect in basketball....","categories": ["Blog","Research"],
+        "excerpt":"Tl;dr: Yes, hot hands exist in basketball People should stop uncritically using Bayes factors Look to sports if you want data to test out ideas Oddly enough, for a government-funded mathematical biologist, it looks like I wrote a manuscript funded by the Social Security Administration on the hot hand effect...","categories": ["Blog","Research"],
         "tags": ["research","statistics","bayesian"],
         "url": "http://localhost:4000/blog/research/basketball/",
         "teaser":null}]
