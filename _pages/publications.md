@@ -7,31 +7,31 @@ title: "Publications"
 Somewhere in the pipeline
 -------------------------
 
-* **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* [NeurIPS 2019 Bayesian Deep Learning Workshop](http://bayesiandeeplearning.org/).
+* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model of mitochondrial calcium-phosphate dissolution as a mechanism for persistent post-CSD vasoconstriction,* In review, PLOS Computational Biology, [doi:10.1101/732362](https://www.biorxiv.org/content/10.1101/732362v1).
 
 * **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Evaluating the in-application performance of IRT calibration and scoring methods using
 cross validation,* In Preparation.
-
-* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model of mitochondrial calcium-phosphate dissolution as a mechanism for persistent post-CSD vasoconstriction,* In review, PLOS Computational Biology, [doi:10.1101/732362](https://www.biorxiv.org/content/10.1101/732362v1).
-
-* ME Solesio, L Carlos, PA Elustondo, C Diao, **Joshua C. Chang,** and EV Pavlov, Inorganic polyphosphate is required for prolonged free mitochondrial calcium elevation following stimulated calcium uptake, In review, Cell Calcium, [doi:10.1101/493825v1](https://www.biorxiv.org/content/10.1101/493825v1).
-
 
 
 Published
 ---------
 
+* **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* [NeurIPS 2019 Bayesian Deep Learning Workshop](http://bayesiandeeplearning.org/) [arXiv:1912.02351](https://arxiv.org/abs/1912.02351).
+
+
+* ME Solesio, L Carlos, PA Elustondo, C Diao, **Joshua C. Chang,** and EV Pavlov, Inorganic polyphosphate is required for prolonged free mitochondrial calcium elevation following stimulated calcium uptake. Cell Calcium, [doi:10.1016/j.ceca.2019.102127](https://doi.org/10.1016/j.ceca.2019.102127).
+
 
 * **Joshua C. Chang.** *Predictive Bayesian selection of multistep Markov chains, applied to the detection
 of the hot hand and other statistical dependencies in free throws.* Royal Society Open Science [doi:10.1098/rsos.182174](https://doi.org/10.1098/rsos.182174) [arXiv:1706.08881](https://arxiv.org/abs/1706.08881)
 
-* Aaron Heuser, Minh Huynh, and **Joshua C. Chang.** *Asymptotic convergence in distribution of the area bounded by prevalence-weighted Kaplan–Meier curves using empirical process modelling
+* Aaron Heuser, Minh Huynh, and **Joshua C. Chang.** *Asymptotic convergence in distribution of the area bounded by prevalence-weighted Kaplanâ€“Meier curves using empirical process modelling
 .* Royal Society Open Science [doi:10.1098/rsos.180496](https://royalsocietypublishing.org/doi/10.1098/rsos.180496) [arXiv: 1701.02424](https://arxiv.org/abs/1701.02424)
 
 
 * **Joshua C. Chang**, Yanli Liu, and Tom Chou. *High-resolution reconstruction of cellular traction- force distributions: the role of physically motivated constraints and compressive regularization.* [Biophysical journal](https://www.cell.com/biophysj/fulltext/S0006-3495(17)31033-0) [arXiv:1709.04408](http://arxiv.org/abs/1709.04408)
 
-* Patrick E. Gygli, **Joshua C. Chang**, Hamza N. Gokozan, Fay P. Catacutan, Theresa A. Schmidt, Amelie Griveau, Wojciech Michowski, Michael Wong, Kamalakannan Palanichamy, Peter Sicinski, Catherine Czeisler, José J. Otero. *Cyclin A2 promotes DNA repair in the brain during both development and aging.* Aging. [doi:10.18632/aging.100990](http://dx.doi.org/10.18632/aging.100990)
+* Patrick E. Gygli, **Joshua C. Chang**, Hamza N. Gokozan, Fay P. Catacutan, Theresa A. Schmidt, Amelie Griveau, Wojciech Michowski, Michael Wong, Kamalakannan Palanichamy, Peter Sicinski, Catherine Czeisler, JosÃ© J. Otero. *Cyclin A2 promotes DNA repair in the brain during both development and aging.* Aging. [doi:10.18632/aging.100990](http://dx.doi.org/10.18632/aging.100990)
 
 * Dan Kaufmann, Jeremy J. Theriot, Jekaterina Zyuzin, C. Austin Service, **Joshua C. Chang**, Y. Tanye Tang, Vladimir B. Bogdanov, Sylvie Multon, Jean Schoenen, Y Sungtaek Ju, KC Brennan. *Heterogeneous incidence and propagation of spreading depolarizations.*  Journal of Cerebral Blood Flow and Metabolism.  [doi:10.1177/0271678X16659496](http://dx.doi.org/10.1177/0271678X16659496)
 
@@ -39,7 +39,7 @@ of the hot hand and other statistical dependencies in free throws.* Royal Societ
 
 * **Joshua C. Chang**, Pak-Wing Fok, and Tom Chou. *Bayesian Uncertainty Quantification for Bond Energies and Mobilities Using Path Integral Analysis,* Biophysical journal 109.5 (2015): 966-974, [doi:10.1016/j.bpj.2015.07.028](http://dx.doi.org/10.1016/j.bpj.2015.07.028) [arXiv:1502.06415](http://arxiv.org/abs/1502.06415) [github:joshchang/dfsinference](https://github.com/joshchang/dfsinference)
 
-* **Joshua C. Chang**,  Mark Leung, Hamza Gokozan, Patrick Gygli, Fay Patsy Catacutan, Catherine Czeisler, José J. Otero. *Mitotic Events in Murine Cerebellar Granule Progenitor Cells that Expand Cerebellar Surface Area are Critical for Normal Cerebellar Cortical Lamination,* The Journal of Neuropathology and Experimental Neurology, 74.3 (2015): 261-272. [doi:10.1097/NEN.0000000000000171](http://dx.doi.org/10.1097/NEN.0000000000000171) 
+* **Joshua C. Chang**,  Mark Leung, Hamza Gokozan, Patrick Gygli, Fay Patsy Catacutan, Catherine Czeisler, JosÃ© J. Otero. *Mitotic Events in Murine Cerebellar Granule Progenitor Cells that Expand Cerebellar Surface Area are Critical for Normal Cerebellar Cortical Lamination,* The Journal of Neuropathology and Experimental Neurology, 74.3 (2015): 261-272. [doi:10.1097/NEN.0000000000000171](http://dx.doi.org/10.1097/NEN.0000000000000171) 
 
 * **Joshua C. Chang**, Van Savage, and Tom Chou. *A path-integral approach to Bayesian inference for inverse problems using the semiclassical approximation*, Journal of Statistical Physics. [doi:10.1007/s10955-014-1059-y](http://dx.doi.org/10.1007/s10955-014-1059-y) [arXiv:1312.2974](http://arxiv.org/abs/1312.2974)
 
