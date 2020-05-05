@@ -7,10 +7,12 @@ title: "Publications"
 Somewhere in the pipeline
 -------------------------
 
+* Carson C Chow,  **Joshua C Chang,**  Richard C Gerkin, Shashaank Vattikuti, *Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases,* [doi:10.1101/2020.04.29.20083485](https://doi.org/10.1101/2020.04.29.20083485)
+ 
+
 * Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model of mitochondrial calcium-phosphate dissolution as a mechanism for persistent post-CSD vasoconstriction,* In review, PLOS Computational Biology, [doi:10.1101/732362](https://www.biorxiv.org/content/10.1101/732362v1).
 
-* **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Evaluating the in-application performance of IRT calibration and scoring methods using
-cross validation,* In Preparation.
+* **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Bayesian calibration and application-specific cross-validation for  predictive evaluation of item response models,* In Preparation.
 
 
 Published
