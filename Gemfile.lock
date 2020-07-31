@@ -9,11 +9,11 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     algolia_html_extractor (2.6.2)
-      json (~> 2.0)
+      json (~> 2.3)
       nokogiri (~> 1.10.8)
     algoliasearch (1.27.1)
       httpclient (~> 2.8, >= 2.8.3)
-      json (>= 1.5.1)
+      json (>= 2.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -211,7 +211,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
-    json (2.2.0)
+    json (2.3.0)
     kramdown (1.17.0)
     liquid (4.0.0)
     listen (3.1.5)
