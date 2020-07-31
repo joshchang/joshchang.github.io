@@ -113,7 +113,7 @@ GEM
       algoliasearch (~> 1.26)
       filesize (~> 0.1)
       jekyll (>= 3.6, < 5.0)
-      json (~> 2.0)
+      json (>= 2.5)
       nokogiri (~> 1.6)
       progressbar (~> 1.9)
       verbal_expressions (~> 0.1.5)
