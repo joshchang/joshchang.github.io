@@ -10,13 +10,14 @@ Somewhere in the pipeline
 * Carson C Chow,  **Joshua C Chang,**  Richard C Gerkin, Shashaank Vattikuti, *Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases,* [doi:10.1101/2020.04.29.20083485](https://doi.org/10.1101/2020.04.29.20083485)
  
 
-* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model of mitochondrial calcium-phosphate dissolution as a mechanism for persistent post-CSD vasoconstriction,* In review, PLOS Computational Biology, [doi:10.1101/732362](https://www.biorxiv.org/content/10.1101/732362v1).
-
 * **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Bayesian calibration and application-specific cross-validation for  predictive evaluation of item response models,* In Preparation.
 
 
 Published
 ---------
+
+
+* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model for persistent post-CSD vasoconstriction,* PLOS Computational Biology, [doi:10.1371/journal.pcbi.1007996](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007996).
 
 * **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* [NeurIPS 2019 Bayesian Deep Learning Workshop](http://bayesiandeeplearning.org/) [arXiv:1912.02351](https://arxiv.org/abs/1912.02351).
 
