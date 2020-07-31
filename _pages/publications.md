@@ -12,12 +12,13 @@ Somewhere in the pipeline
 
 * **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Bayesian calibration and application-specific cross-validation for  predictive evaluation of item response models,* In Preparation.
 
+* **Joshua C. Chang,** Patrick Fletcher, Ayah Zirikly, Bart Desmet, Ted L. Chang, Carson C. Chow, and Shahaank Vattikuti, *Factorization*
 
 Published
 ---------
 
 
-* Shixin Xu, **Joshua C. Chang,** Carson C Chow, and Huaxiong Huang, *A mathematical model for persistent post-CSD vasoconstriction,* PLOS Computational Biology, [doi:10.1371/journal.pcbi.1007996](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007996).
+* Shixin Xu, **Joshua C. Chang,** Carson C Chow, KC Brennan, and Huaxiong Huang, *A mathematical model for persistent post-CSD vasoconstriction,* PLOS Computational Biology, [doi:10.1371/journal.pcbi.1007996](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007996).
 
 * **Joshua C. Chang,** Shashaank Vattikuti, and Carson C Chow, *Probabilistically-autoencoded horseshoe-disentangled multidomain item-response theory models,* [NeurIPS 2019 Bayesian Deep Learning Workshop](http://bayesiandeeplearning.org/) [arXiv:1912.02351](https://arxiv.org/abs/1912.02351).
 
