@@ -7,12 +7,15 @@ title: "Publications"
 Somewhere in the pipeline
 -------------------------
 
-* Carson C Chow,  **Joshua C Chang,**  Richard C Gerkin, Shashaank Vattikuti, *Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases,* [doi:10.1101/2020.04.29.20083485](https://doi.org/10.1101/2020.04.29.20083485)
- 
-
-* **Joshua C. Chang,** Julia Porcino, Jing Li and Larry Tang, *Bayesian calibration and application-specific cross-validation for  predictive evaluation of item response models,* In Preparation.
+* **Joshua C. Chang,** Julia Porcino, Elizabeth K. Rasch, and Larry Tang, *Regularized Bayesian calibration and scoring of the WD-FAB IRT model improves predictive performance over maximum marginal likelihood 	,* Submitted [arXiv:1912.02351](https://arxiv.org/abs/1912.02351).
 
 * **Joshua C. Chang,** Patrick Fletcher, Ayah Zirikly, Bart Desmet, Ted L. Chang, Carson C. Chow, and Shahaank Vattikuti, *Factorization*
+
+Unpublished
+-----------
+
+* Carson C Chow,  **Joshua C Chang,**  Richard C Gerkin, Shashaank Vattikuti, *Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases,* [doi:10.1101/2020.04.29.20083485](https://doi.org/10.1101/2020.04.29.20083485)
+
 
 Published
 ---------
