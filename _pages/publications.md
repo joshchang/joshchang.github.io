@@ -6,9 +6,7 @@ title: "Publications"
 Unpublished
 -----------
 
-* **Joshua C. Chang,** Julia Porcino, Elizabeth K. Rasch, and Larry Tang, *Regularized Bayesian calibration and scoring of the WD-FAB IRT model improves predictive performance over maximum marginal likelihood 	,* Submitted [arXiv:1912.02351](https://arxiv.org/abs/1912.02351).
-
-* **Joshua C. Chang,** Patrick Fletcher, Ayah Zirikly, Bart Desmet, Ted L. Chang, Carson C. Chow, and Shahaank Vattikuti, *Factorization*
+* **Joshua C. Chang,** Julia Porcino, Elizabeth K. Rasch, and Larry Tang, *Regularized Bayesian calibration and scoring of the WD-FAB IRT model improves predictive performance over maximum marginal likelihood,* Submitted [arXiv:2010.01396](https://arxiv.org/abs/2010.01396).
 
 * Carson C Chow,  **Joshua C Chang,**  Richard C Gerkin, Shashaank Vattikuti, *Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases,* [doi:10.1101/2020.04.29.20083485](https://doi.org/10.1101/2020.04.29.20083485)
 
@@ -16,6 +14,8 @@ Unpublished
 Published
 ---------
 
+* **Joshua C. Chang,** Patrick Fletcher, Jungmin Han, Ted L. Chang, Shashaank Vattikuti, Bart Desmet, Ayah Zirikly, Carson C. Chow, *Sparse encoding for more-interpretable feature-selecting representations in probabilistic matrix factorization
+,* ICLR 2021 [arXiv:2012.04171](https://arxiv.org/abs/2012.04171)
 
 * Shixin Xu, **Joshua C. Chang,** Carson C Chow, KC Brennan, and Huaxiong Huang, *A mathematical model for persistent post-CSD vasoconstriction,* PLOS Computational Biology, [doi:10.1371/journal.pcbi.1007996](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007996).
 
